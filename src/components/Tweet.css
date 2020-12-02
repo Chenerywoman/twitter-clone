@@ -1,0 +1,50 @@
+
+.tweet-container {
+    display: flex;
+    margin: 1rem;
+}
+
+.tweet-content-container {
+    
+}
+
+.profile-pic-container{
+
+}
+
+.tweet-header {
+   
+}
+
+.user-name{
+    display:inline;
+    margin-right: 1rem;
+}
+
+.twitter-handle {
+    display: inline;
+}
+
+.small-profile--pic {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+
+}
+
+.tweet-pic{
+    width: 100%;
+    height: 50%;
+    border-radius: 5%;
+    margin-bottom: 1rem;
+}
+
+.twitter-buttons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+#comment-icon, #retweet-icon, #share-icon {
+    color: #50ACF2;
+}
