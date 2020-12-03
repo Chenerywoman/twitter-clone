@@ -4,19 +4,7 @@
     margin: 1rem;
 }
 
-.tweet-content-container {
-    
-}
-
-.profile-pic-container{
-
-}
-
-.tweet-header {
-   
-}
-
-.user-name{
+.name{
     display:inline;
     margin-right: 1rem;
 }
@@ -25,16 +13,20 @@
     display: inline;
 }
 
-.small-profile--pic {
+.small-profile-pic {
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
 
 }
 
+#tweet-text {
+    word-wrap: break-word;
+}
+
 .tweet-pic{
-    width: 100%;
-    height: 50%;
+    width: 15rem;
+    height: 10rem;
     border-radius: 5%;
     margin-bottom: 1rem;
 }
@@ -46,5 +38,6 @@
 }
 
 #comment-icon, #retweet-icon, #share-icon {
-    color: #50ACF2;
+    /* color: #50ACF2; */
+    color: white;
 }

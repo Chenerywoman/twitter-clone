@@ -3,9 +3,10 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import NavBar from './components/Nav';
-import Search from "./components/Search"
-import Notifications from "./components/Notifications"
-import Mail from "./components/Mail"
+import Search from "./components/Search";
+import Notifications from "./components/Notifications";
+import Mail from "./components/Mail";
+import TwitterFeed from "./components/TwitterFeed"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path="/notifications" component={Notifications}/>
       <Route path="/mail" component={Mail}/>
     </Switch>
+    <TwitterFeed />
     </BrowserRouter>
     </div>
     </div>
