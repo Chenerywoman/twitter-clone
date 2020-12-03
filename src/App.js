@@ -7,6 +7,7 @@ import Search from "./components/Search";
 import Notifications from "./components/Notifications";
 import Mail from "./components/Mail";
 import TwitterFeed from "./components/TwitterFeed"
+import Inputbox from "./components/Inputbox"
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path="/notifications" component={Notifications}/>
       <Route path="/mail" component={Mail}/>
     </Switch>
+    <Inputbox />
     <TwitterFeed />
     </BrowserRouter>
     </div>
