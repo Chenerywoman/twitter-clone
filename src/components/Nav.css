@@ -33,6 +33,19 @@ ul {
 
 .input {
   padding-left: 50px;
-  left: 30px;
+  position: relative;
+  left: 90px;
   padding-bottom: 10px;
+}
+
+.message {
+  margin-top: 20px;
+}
+
+.notify {
+  margin-top: 20px;
+}
+
+.date {
+  margin-left: 40px;
 }

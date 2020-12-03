@@ -20,8 +20,8 @@ function App() {
             <Route exact path="/search" component={Search} />
             <Route exact path="/notifications" component={Notifications} />
             <Route exact path="/mail" component={Mail} />
+            <TwitterFeed />
           </Switch>
-          <TwitterFeed />
         </BrowserRouter>
       </React.Fragment>
     </div>
