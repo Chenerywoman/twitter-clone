@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import './Header.css';
-import {Link} from 'react-router-dom';
+//import {Link} from 'react-router-dom';
 import Twitter from './twitter.jpg'
 import Icon from './quill.jpg'
 
