@@ -5,9 +5,9 @@ import tweetsFromJSON from '../static/tweets.json';
 
 const TweetsHolder = () => {
 
-    useEffect(() => {
-        updateTwitterFeed();
-    },[tweets])
+    // useEffect(() => {
+    //     updateTwitterFeed();
+    // },[tweets])
 
     const [tweets, setTweets] = useState(tweetsFromJSON)
 
