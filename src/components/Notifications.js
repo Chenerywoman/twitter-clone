@@ -1,11 +1,12 @@
+import "./Nav.css";
 
 const Notifications = () => {
-    return (
-        <div>
-            <h1>No New Notifications</h1>
-            <p>You are fully up to date!</p>
-        </div>
-    )
-}
+  return (
+    <div className="notify">
+      <h1>No New Notifications</h1>
+      <p className="date">You are fully up to date!</p>
+    </div>
+  );
+};
 
 export default Notifications;
