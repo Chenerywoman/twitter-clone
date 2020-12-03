@@ -1,8 +1,7 @@
 import React from 'react';
-import tweets from '../static/tweets.json';
 import Tweet from './Tweet';
 
-const TwitterFeed = () => {
+const TwitterFeed = ({tweets}) => {
 
     return (
         <div className="twitter-feed">

@@ -10,7 +10,7 @@ const Header = () => {
     const [visibility, setVisibility] = useState(false);
 
     const toggleVisibility = () => {
-        if (visibility == false) {
+        if (visibility === false) {
             setVisibility(true);
         } else {
             setVisibility(false);
