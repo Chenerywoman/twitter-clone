@@ -6,9 +6,8 @@ import NavBar from "./components/Nav";
 import Search from "./components/Search";
 import Notifications from "./components/Notifications";
 import Mail from "./components/Mail";
-import Inputbox from "./components/Inputbox"
+import Inputbox from "./components/Inputbox";
 import TwitterFeed from "./components/TwitterFeed";
-
 
 function App() {
   return (
@@ -22,15 +21,11 @@ function App() {
             <Route exact path="/search" component={Search} />
             <Route exact path="/notifications" component={Notifications} />
             <Route exact path="/mail" component={Mail} />
-<<<<<<< HEAD
-=======
-            <Inputbox />
->>>>>>> 46dd990f1be2539572b396a13437208e92075305
             <TwitterFeed />
           </Switch>
+          <Inputbox />
         </BrowserRouter>
       </React.Fragment>
-
     </div>
   );
 }
