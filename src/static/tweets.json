@@ -6,7 +6,7 @@
         "tweet": "this is a test. Somebody once told me the world is gonna roll me I ain/'t the sharpest tool in the shed. She was looking kind of dumb with her finger and her thumb. In the shape of an 'L' on her forehead. Well the years start coming and they don't stop coming. Fed to the rules and I",
         "pic":"https://www.menkind.co.uk/media/catalog/product/cache/84a9762dea65cd4d66747ad9a34bdb64/7/2/72264-che-wtf-1-1000.jpg",
         "alt":"wtf game",
-        "like": "false"
+        "like": false
     },
     {
         "name": "Sue teh T. rex",
@@ -15,7 +15,7 @@
         "tweet": "I mean, if you can’t say something in a tight two sentences, save it for your blog, you know? Maybe we should all be more conscious with our communication and spend more time focusing on the things important to us. Like dinosaurs, for instance. Anyway, that is all I wanted to say",
         "pic":"https://scitechdaily.com/images/Male-Female-Dinosaurs.jpg",
         "alt": "male & female dinosaurs",
-        "like": "false"
+        "like": false
     },
     {
         "name": "Stephen Lobo",
@@ -24,7 +24,7 @@
         "tweet": "I've always thought that 140 characters were too little to effectively convey ones thoughts. And now that we have 280, am wondering whether a thought more than 140 characters is a thought worth tweeting. Or worth reading. Still figuring out how to fill the space. Just made it.",
         "pic":"https://desenio.co.uk/bilder/artiklar/zoom/12676_2.jpg?imgwidth=435&qt=",
         "alt":"blah, blah, blah",
-        "like": "false"
+        "like": false
     },
     {
         "name": "Melville House",
@@ -33,7 +33,7 @@
         "tweet": "books books books books books books books books books books books books books books books books books books books books books books books book books books books books books books books books books books books books books books books books books books. that's too many. this sucks",
         "pic":"https://miro.medium.com/max/4000/1*-T8oo_JoKkMxfnPKLt_Ciw.jpeg",
         "alt":"head bookshelf",
-        "like": "false"
+        "like": false
     },
     {
         "name": "Virgin Orbit",
@@ -42,7 +42,7 @@
         "tweet":"Spaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaace! #280characters",
         "pic":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/andromeda-galaxy-royalty-free-image-1585682435.jpg",
         "alt":"space",
-        "like": "false"
+        "like": false
     },
     {
         "name": "Matt Scharfstein",
@@ -51,7 +51,7 @@
         "tweet":"It's only fitting that @twitter is granting all of us #280characters on #ElectionDay. There's more space to remind folks how important it is to vote in state and local elections today.Remember, if you're in line by poll closing, they MUST let you #VOTE.",
         "pic":"https://images.theconversation.com/files/193473/original/file-20171106-1041-b3hljk.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
         "alt":"ballot box",
-        "like": "false"
+        "like": false
     },
     {
         "name": "Miss Piggy",
@@ -60,7 +60,7 @@
         "tweet":"What to say when vous discover you suddenly have #280characters on Twitter: Moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi, moi & moi!!",
         "pic":"https://media.newyorker.com/photos/590970241c7a8e33fb38ea72/master/pass/Crouch-Subversive-Muppets.jpg",
         "alt": "miss piggy & kermit",
-        "like": "false"
+        "like": false
     },
     {
         "name": "NBA referees",
@@ -69,14 +69,14 @@
         "tweet":"Now that we all have #280Characters, we expect your Twitter complaints about specific calls against your favorite teams to be calm, well-reasoned, and full of complete sentences. Thanks in advance for this positive step forward in basketball officiating-related discourse.",
         "pic":"https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0608%2Fr706321_1296x729_16%2D9.jpg",
         "alt": "basket ball",
-        "like": "false"
+        "like": false
     },{
         "name": "kiera",
         "username": "@Kierabridget",
         "userpic":"https://i.pinimg.com/600x315/79/8d/10/798d100ba54a905917183709f3fdedc5.jpg",
         "tweet":"According to all known laws of aviation, there is no way that a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyways. Because bees don't care what humans think is impossible. Yellow, black. #280characters",
         "pic":"https://graphicriver.img.customer.envatousercontent.com/files/21843647/beehive_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=9c57af0e28303098d535e6c97bb06208",
-        "like": "false"
+        "like": false
     },
     {
         "name": "NCMEC",
@@ -85,7 +85,7 @@
         "tweet":"#MISSING Ny'ena Allen, 17, was last seen on June 2nd, 2017 in #Virginia Beach, VA. She is believed to be in Virginia Beach or Norfolk, Virginia. If you have any information of Ny'ena's whereabouts, please contact @VBPD or call 1-800-THE-LOST #280characters",
         "pic":"https://i2.wp.com/metro.co.uk/wp-content/uploads/2019/12/rog1-9b3f.jpg?quality=90&strip=all&zoom=1&resize=540%2C309&ssl=1",
         "alt":"picture of Roger",
-        "like": "false"
+        "like": false
     },{
         "name": "Mr Silly",
         "username": "@MrSilly",
@@ -93,7 +93,7 @@
         "tweet":"You have the right to remain silent. Anything you say will be misquoted, then used against you. The hardness of butter is directly proportional to the softness of the bread.Change is inevitable, except from a vending machine. Vacation begins when Dad says, “I know a short cut.",
         "pic":"https://media.bizj.us/view/img/10662197/howtobreadbutter*1200xx5440-3060-0-510.jpg",
         "alt":"toast and butter",
-        "like": "false"
+        "like": false
     },{
         "name": "Mr Greedy",
         "username": "@MrGreedy",
@@ -101,7 +101,7 @@
         "tweet":"Give a man a fish and he will eat for a day. A clear conscience is usually the sign of a bad memory. The early bird gets the worm, but the second mouse gets the cheese. The severity of the itch is inversely proportional to the ability to reach it.",
         "pic":"https://hemmingwaysfish.co.uk/wp-content/uploads/2020/02/heather-perch-s-w300-q95-m1580813512.jpeg",
         "alt": "woman with fish",
-        "like": "false"
+        "like": false
     },{
         "name": "Matt Scharfstein",
         "username": "@Mattscharfstein",
@@ -109,7 +109,7 @@
         "tweet":"It's only fitting that @twitter is granting all of us #280characters on #ElectionDay. There's more space to remind folks how important it is to vote in state and local elections today.Remember, if you're in line by poll closing, they MUST let you #VOTE.",
         "pic":"https://images.theconversation.com/files/193473/original/file-20171106-1041-b3hljk.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
         "alt": "ballot box",
-        "like": "false"
+        "like": false
     },
     {
         "name": "Lyra Bellaqua",
@@ -118,7 +118,7 @@
         "tweet":"“By not being human,” he said. “That’s why you could never trick a bear. We see tricks and deceit as plain as arms and legs. We can see in a way humans have forgotten. But you know about this; you can understand the symbol reader.”",
         "pic":"https://img.cinemablend.com/filter:scale/quill/6/c/a/4/1/4/6ca414247360021311dbc821947d4a8f24d724a5.png?mw=600",
         "alt":"Iorek Byrnyson",
-        "like": "false"
+        "like": false
     }
     
 ]
