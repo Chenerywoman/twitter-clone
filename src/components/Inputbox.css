@@ -3,9 +3,6 @@
     padding: 12px 10px;
     width: 500px;
     border: solid whitesmoke 1px;
-
-    
-    
 }
 
 .tweet, input[type=text]:focus {
@@ -26,8 +23,6 @@
     font-weight: bolder;
 
 
-
-
 }
 
 .button:focus {
@@ -40,7 +35,7 @@
 
 @media only screen and (max-width: 768px) {
     .tweet, input[type=text] {
-    width: 200px;
+        width: 200px;
     
     }
-    }
+}
