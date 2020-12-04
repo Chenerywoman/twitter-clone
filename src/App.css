@@ -1,12 +1,5 @@
 .App {
   display: flex;
-  word-wrap: break-word;
-}
-
-.tweet {
-  display: flex;
-  flex-wrap: wrap;
-  width: 400px;
 }
 
 @media only screen and (max-width: 908px) {
