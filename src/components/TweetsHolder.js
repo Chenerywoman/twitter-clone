@@ -9,12 +9,14 @@ const TweetsHolder = () => {
 
     const [input, setInput] = useState("");
 
+    const [like, setLike] = useState(false);
+
     const [completedTweet, setCompletedTweet] = useState({
         name: "twittermaniac",
         username: "@twittermaniac",
         userpic: "https://en.bcdn.biz/Images/2016/11/15/776342f0-86f5-4522-84c9-a02d6b11c766.jpg",
         tweet: "",
-        pic: "",
+        pic: "https://peliproducts.co.uk/wp/wp-content/uploads/2018/01/2-Northern-Quarter-1.jpg",
         alt: "",
         like: false
     });
@@ -33,7 +35,16 @@ const TweetsHolder = () => {
 
     }
 
-    console.log(tweets)
+    const updateLike = (ind, likeStatus) => {
+        console.log(likeStatus)
+        let updatedTweets = [...tweets];
+       
+        updatedTweets[ind].like = likeStatus;  
+        
+        setTweets([...updatedTweets])
+
+    }
+
     return (
         <div>
             <InputBox 
@@ -41,7 +52,10 @@ const TweetsHolder = () => {
                 handleSubmit={handleSubmit}
                 handleTweet={handleTweet}
             />
-            <TwitterFeed tweets={tweets}/>
+            <TwitterFeed 
+            tweets={tweets}
+            updateLike={updateLike}
+            />
         </div>
     )
 }

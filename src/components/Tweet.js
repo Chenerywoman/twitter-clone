@@ -8,20 +8,23 @@ import {
   faShareAlt,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Tweet = ({ name, username, userpic, tweet, pic, alt }) => {
-  const [like, setLike] = useState(false);
+const Tweet = ({ ind, name, username, userpic, tweet, pic, alt, like, updateLike }) => {
+
   const [colour, setColour] = useState("#50ACF2");
 
   const toggleLike = () => {
-    console.log("in handleLike");
-
+    console.log('in toggle like')
+    console.log(`like in tweet ${like}`)
     if (like === false) {
-      setLike(true);
       setColour("#e0245e");
+      updateLike(ind, true)
     } else {
-      setLike(false);
       setColour("#50ACF2");
+      updateLike(ind, false)
     }
+
+
+
   };
 
   return (
