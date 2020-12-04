@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import TwitterFeed from './TwitterFeed';
 import InputBox from './Inputbox';
 import tweetsFromJSON from '../static/tweets.json';
+import './TweetsHolder.css';
 
 const TweetsHolder = () => {
 
@@ -46,7 +47,7 @@ const TweetsHolder = () => {
     }
 
     return (
-        <div>
+        <div className="tweets-holder">
             <InputBox 
                 input={input} 
                 handleSubmit={handleSubmit}
