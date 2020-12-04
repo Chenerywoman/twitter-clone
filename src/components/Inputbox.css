@@ -26,8 +26,6 @@
     font-weight: bolder;
 
 
-
-
 }
 
 .button:focus {
@@ -36,4 +34,11 @@
 
 .button:hover {
     background-color: #4a9cdb;
+}
+
+@media only screen and (max-width: 768px) {
+    .tweet, input[type=text] {
+        width: 200px;
+
+    }
 }
