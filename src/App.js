@@ -7,6 +7,7 @@ import Search from "./components/Search";
 import Notifications from "./components/Notifications";
 import Mail from "./components/Mail";
 import TweetsHolder from "./components/TweetsHolder";
+import Trending from "./components/Trending";
 
 function App() {
   return (
@@ -16,11 +17,14 @@ function App() {
         <div className="App">
           <BrowserRouter>
             <NavBar />
+            <Trending />
+
             <Switch>
               <Route exact path="/search" component={Search} />
               <Route exact path="/notifications" component={Notifications} />
               <Route exact path="/mail" component={Mail} />
-              <TweetsHolder />
+
+              <TweetsHolder className="tweet" />
             </Switch>
           </BrowserRouter>
         </div>
