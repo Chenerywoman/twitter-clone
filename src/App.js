@@ -10,19 +10,20 @@ import TweetsHolder from "./components/TweetsHolder";
 
 function App() {
   return (
-    <div className="App">
+    <div className="main">
       <React.Fragment>
         <Header />
-
-        <BrowserRouter>
-          <NavBar />
-          <Switch>
-            <Route exact path="/search" component={Search} />
-            <Route exact path="/notifications" component={Notifications} />
-            <Route exact path="/mail" component={Mail} />
-            <TweetsHolder />
-          </Switch>
-        </BrowserRouter>
+        <div className="App">
+          <BrowserRouter>
+            <NavBar />
+            <Switch>
+              <Route exact path="/search" component={Search} />
+              <Route exact path="/notifications" component={Notifications} />
+              <Route exact path="/mail" component={Mail} />
+              <TweetsHolder />
+            </Switch>
+          </BrowserRouter>
+        </div>
       </React.Fragment>
     </div>
   );
