@@ -30,3 +30,14 @@ img {
 .icon {
   padding-right: 50px;
 }
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    left: 20px;
+  }
+}
