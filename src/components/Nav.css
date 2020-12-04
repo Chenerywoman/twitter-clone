@@ -25,6 +25,25 @@ ul {
   width: 200px;
 }
 
+.input {
+  padding-left: 50px;
+  position: relative;
+  left: 90px;
+  padding-bottom: 10px;
+}
+
+.message {
+  margin-top: 20px;
+}
+
+.notify {
+  margin-top: 20px;
+}
+
+.date {
+  margin-left: 40px;
+}
+
 @media only screen and (max-width: 768px) {
   ul {
     background-color: #50acf2;
@@ -37,24 +56,5 @@ ul {
     height: 40px;
     list-style: none;
     z-index: 6;
-  }
-
-  .input {
-    padding-left: 50px;
-    position: relative;
-    left: 90px;
-    padding-bottom: 10px;
-  }
-
-  .message {
-    margin-top: 20px;
-  }
-
-  .notify {
-    margin-top: 20px;
-  }
-
-  .date {
-    margin-left: 40px;
   }
 }
