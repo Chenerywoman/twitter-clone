@@ -58,3 +58,31 @@ ul {
     z-index: 6;
   }
 }
+
+@media only screen and (min-width: 768px) {
+  .home {
+    height: 50px;
+    width: 50px;
+  }
+
+  .search {
+    height: 50px;
+    width: 50px;
+  }
+
+  .notification {
+    height: 50px;
+    width: 50px;
+  }
+
+  .mail {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+  }
+
+  ul {
+    position: relative;
+    left: 110px;
+  }
+}

@@ -1,20 +1,5 @@
-.tweets-holder{
-    border: 1px solid pink;
-    /* width: 33%; */
-}
-
-/* @media only screen and (max-width: 768px) {
-
-
-
-} */
-
 @media only screen and (min-width: 768px) {
-
-    .tweets-holder{
-        border: 1px solid pink;
-        width: 33%;
-    }
-    
-
+  .tweets-holder {
+    width: 33%;
+  }
 }

@@ -1,9 +1,10 @@
 .trend {
   width: 200px;
   position: relative;
-  left: 700px;
-  border: 2px solid red;
+  left: 800px;
+  background-color: #50acf2;
   min-height: 100%;
+  padding: 10px;
 }
 
 @media only screen and (max-width: 908px) {
