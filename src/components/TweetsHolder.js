@@ -5,10 +5,6 @@ import tweetsFromJSON from '../static/tweets.json';
 
 const TweetsHolder = () => {
 
-    // useEffect(() => {
-    //     updateTwitterFeed();
-    // },[tweets])
-
     const [tweets, setTweets] = useState(tweetsFromJSON)
 
     const [input, setInput] = useState("");
@@ -24,25 +20,18 @@ const TweetsHolder = () => {
     });
 
     const handleTweet = (e) => {
-        setInput (e.target.value)
+        setInput(e.target.value)
 
     }
 
     const handleSubmit = (e) => {
-        setCompletedTweet({...completedTweet, tweet: input
-        });
-
-        setInput("");
-
         e.preventDefault();
-    }
 
-    const updateTwitterFeed = () => {
-        let updatedTwitterFeed = [...tweets];
-        updatedTwitterFeed.unshift(completedTweet);
-        setTweets(updatedTwitterFeed);
-    }
+        setTweets([{...completedTweet, tweet:input}, ...tweets])
+        
+        setInput("")
 
+    }
 
     console.log(tweets)
     return (
