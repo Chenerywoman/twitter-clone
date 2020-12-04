@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import TwitterFeed from './TwitterFeed';
 import InputBox from './Inputbox';
 import tweetsFromJSON from '../static/tweets.json';
@@ -8,6 +8,8 @@ const TweetsHolder = () => {
     const [tweets, setTweets] = useState(tweetsFromJSON)
 
     const [input, setInput] = useState("");
+
+    const [like, setLike] = useState(false);
 
     const [completedTweet, setCompletedTweet] = useState({
         name: "twittermaniac",
@@ -34,8 +36,11 @@ const TweetsHolder = () => {
     }
 
     const updateLike = (ind, likeStatus) => {
+        console.log(likeStatus)
         let updatedTweets = [...tweets];
-        updatedTweets[ind].like = likeStatus;   
+       
+        updatedTweets[ind].like = likeStatus;  
+        
         setTweets([...updatedTweets])
 
     }
