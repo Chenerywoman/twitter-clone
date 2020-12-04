@@ -8,24 +8,7 @@ import {
   faShareAlt,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Tweet = ({ ind, name, username, userpic, tweet, pic, alt, like, updateLike }) => {
-
-  const [colour, setColour] = useState("#50ACF2");
-
-  const toggleLike = () => {
-    console.log('in toggle like')
-    console.log(`like in tweet ${like}`)
-    if (like === false) {
-      setColour("#e0245e");
-      updateLike(ind, true)
-    } else {
-      setColour("#50ACF2");
-      updateLike(ind, false)
-    }
-
-
-
-  };
+const Tweet = ({ ind, name, username, userpic, tweet, pic, alt, like, updateLike, toggleLike }) => {
 
   return (
     <div className="tweet-container">
@@ -47,9 +30,8 @@ const Tweet = ({ ind, name, username, userpic, tweet, pic, alt, like, updateLike
           <FontAwesomeIcon id="comment-icon" icon={faComment} />
           <FontAwesomeIcon id="retweet-icon" icon={faRetweet} />
           <FontAwesomeIcon
-            style={{ color: colour }}
-            id="like-icon"
-            onClick={toggleLike}
+            className={like ? "like" : "heart"}
+            onClick={()=> toggleLike(ind, like)}
             icon={faHeart}
           />
           <FontAwesomeIcon id="share-icon" icon={faShareAlt} />

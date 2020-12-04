@@ -10,8 +10,6 @@ const TweetsHolder = () => {
 
     const [input, setInput] = useState("");
 
-    const [like, setLike] = useState(false);
-
     const [completedTweet, setCompletedTweet] = useState({
         name: "twittermaniac",
         username: "@twittermaniac",
@@ -46,6 +44,16 @@ const TweetsHolder = () => {
 
     }
 
+    const toggleLike = (ind, like) => {
+        console.log('in toggle like')
+        console.log(`like in tweet ${like}`)
+        if (like === false) {
+          updateLike(ind, true)
+        } else {
+          updateLike(ind, false)
+        }
+    }
+
     return (
         <div className="tweets-holder">
             <InputBox 
@@ -56,6 +64,7 @@ const TweetsHolder = () => {
             <TwitterFeed 
             tweets={tweets}
             updateLike={updateLike}
+            toggleLike={toggleLike}
             />
         </div>
     )
