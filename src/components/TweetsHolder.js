@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import TwitterFeed from './TwitterFeed';
 import InputBox from './Inputbox';
 import tweetsFromJSON from '../static/tweets.json';
