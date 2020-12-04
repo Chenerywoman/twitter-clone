@@ -1,7 +1,7 @@
 import React from 'react';
 import Tweet from './Tweet';
 
-const TwitterFeed = ({tweets, updateLike}) => {
+const TwitterFeed = ({tweets, updateLike, toggleLike}) => {
 
     return (
         <div className="twitter-feed">
@@ -19,6 +19,7 @@ const TwitterFeed = ({tweets, updateLike}) => {
                         alt={tweet.alt}
                         like={tweet.like}
                         updateLike={updateLike}
+                        toggleLike={toggleLike}
                     />
                 )
             })}
